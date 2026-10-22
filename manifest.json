@@ -1,0 +1,9 @@
+{
+  "id": "ae.watchwrestling.nuvio",
+  "name": "WatchWrestling AE",
+  "version": "1.0.0",
+  "description": "Pulls recent matches and events from watchwrestling.ae",
+  "types": ["tv", "movie"],
+  "catalogs": [],
+  "resources": ["stream"]
+}
