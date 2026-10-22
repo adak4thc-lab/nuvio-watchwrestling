@@ -1,9 +1,15 @@
 {
   "id": "ae.watchwrestling.nuvio",
   "name": "WatchWrestling AE",
-  "version": "1.0.0",
-  "description": "Pulls recent matches and events from watchwrestling.ae",
-  "types": ["tv", "movie"],
-  "catalogs": [],
-  "resources": ["stream"]
+  "version": "1.1.0",
+  "description": "WatchWrestling series catalog and episode extractor",
+  "types": ["series", "tv"],
+  "resources": ["catalog", "meta", "stream"],
+  "catalogs": [
+    {
+      "type": "series",
+      "id": "watchwrestling_shows",
+      "name": "Wrestling Shows"
+    }
+  ]
 }
